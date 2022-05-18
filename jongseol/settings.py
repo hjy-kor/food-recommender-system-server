@@ -44,6 +44,7 @@ INSTALLED_APPS = [
     'a4app.apps.A4AppConfig',
     'account.apps.AccountConfig',
     'recommend.apps.RecommendConfig',
+    'initiate.apps.InitiateConfig',
 ]
 
 MIDDLEWARE = [

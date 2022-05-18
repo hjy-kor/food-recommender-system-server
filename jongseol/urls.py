@@ -24,5 +24,6 @@ urlpatterns = [
     path('api/user/', UserListAPI.as_view()),
     path('user/', include('account.urls')),
     path('recipe/', include('recommend.urls')),
+    path('initiate/', include('initiate.urls')),
     # path('rest-auth/', include('rest_auth.urls')),
 ]
